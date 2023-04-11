@@ -8,6 +8,6 @@ storage/*.key
 public/downloads
 /.vagrant
 .phpunit.result.cache
-*.sqlite
 *.log
 *.pdf
+.DS_Store
