@@ -1,0 +1,14 @@
+# Laravel
+API/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+storage/*.key
+.env
+public/downloads
+/.vagrant
+.phpunit.result.cache
+*.sqlite
+*.lock
+*.log
+*.pdf
