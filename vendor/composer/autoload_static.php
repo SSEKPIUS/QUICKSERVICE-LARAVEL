@@ -382,8 +382,8 @@ class ComposerStaticInitd68e2fe8fb3b43fce7719ac40b819729
         ),
         'Mike42\\' => 
         array (
-            0 => __DIR__ . '/..' . '/mike42/gfx-php/src/Mike42',
-            1 => __DIR__ . '/..' . '/mike42/escpos-php/src/Mike42',
+            0 => __DIR__ . '/..' . '/mike42/escpos-php/src/Mike42',
+            1 => __DIR__ . '/..' . '/mike42/gfx-php/src/Mike42',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
