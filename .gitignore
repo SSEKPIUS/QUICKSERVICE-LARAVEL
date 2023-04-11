@@ -1,5 +1,5 @@
 # Laravel
-API/vendor/
+vendor/
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -9,6 +9,5 @@ public/downloads
 /.vagrant
 .phpunit.result.cache
 *.sqlite
-*.lock
 *.log
 *.pdf
