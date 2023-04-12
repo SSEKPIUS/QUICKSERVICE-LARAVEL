@@ -11,3 +11,4 @@ public/downloads
 *.log
 *.pdf
 .DS_Store
+*/.DS_Store

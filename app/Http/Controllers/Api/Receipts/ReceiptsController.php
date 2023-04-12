@@ -675,7 +675,7 @@ class ReceiptsController extends Controller
 
     public function paginate($items, $perPage = 5, $page = null, $options = [], $request = null)
     {
-        $url = env('APP_URL') . ':' . env('SERVER_PORT') . '/' . $request->path();
+        $url = $request->path();
         $page = $page ?: (Paginator::resolveCurrentPage() ?: 1);
         $items = $items instanceof Collection ? $items : Collection::make($items);
         return new LengthAwarePaginatorCustom($items->forPage($page, $perPage), $items->count(), $perPage, $page, $options, $url);
